@@ -24,6 +24,18 @@ h6 {
   padding: 0 5%;
 }
 
+h1,
+h2 {
+  font-family: 'Bungee', cursive;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lora', serif;
+}
+
 h1 {
   font-size: 40px;
   color: #00ad10;
