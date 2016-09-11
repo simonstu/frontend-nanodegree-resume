@@ -41,6 +41,13 @@ var education = {
         "url": "http://www.medien.ifi.lmu.de/",
         "major": ["Media Economics"]
     }, {
+        "name": "Universidad de Granada",
+        "location": "Granada",
+        "degree": "Erasmus",
+        "dates": "2009",
+        "url": "https://www.ugr.es/en/",
+        "major": ["Media Economics"]
+    }, {
         "name": "LMU Munich",
         "location": "Munich",
         "degree": "Ph.D.",
