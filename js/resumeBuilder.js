@@ -39,21 +39,21 @@ var education = {
         "degree": "Diplom",
         "dates": "2004 - 2011",
         "url": "http://www.medien.ifi.lmu.de/",
-        "major": ["Media Economics"]
+        "majors": ["Media Economics"]
     }, {
         "name": "Universidad de Granada",
         "location": "Granada",
         "degree": "Erasmus",
         "dates": "2009",
         "url": "https://www.ugr.es/en/",
-        "major": ["Media Economics"]
+        "majors": ["Media Economics"]
     }, {
         "name": "LMU Munich",
         "location": "Munich",
         "degree": "Ph.D.",
         "dates": "2012 - 2016",
         "url": "http://www.medien.ifi.lmu.de/",
-        "major": ["Human-Computer Interaction"]
+        "majors": ["Human-Computer Interaction"]
     }],
     "onlineCourses": [{
         "title": "Front-End Developer",
@@ -70,7 +70,7 @@ var education = {
                 var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", school.location);
                 var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", school.degree);
                 var formattedSchoolDates = HTMLschoolDates.replace("%data%", school.dates);
-                var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", school.major);
+                var formattedSchoolMajor = HTMLschoolMajor.replace("%data%", school.majors);
                 $(".education-entry:last").append(
                     formattedSchoolName +
                     formattedSchoolDegree +
